@@ -5,13 +5,13 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-anchor_exam = "6VbBHa1qUhrbaaYTqDQbgxFSs4D1XDJ2G7PJm96uwVQo"
+create-core-asset-example = "G8sAEnDs3GjHqQEQyLzDCrdbE4nY4LAXHh6ibRfFzmHx"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "https://api.devnet.solana.com"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
